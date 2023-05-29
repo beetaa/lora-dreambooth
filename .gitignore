@@ -1,22 +1,22 @@
 .vscode
 .idea
 
-venv
 __pycache__
+
+frontend
+
+venv
+
+data/*
+!data/sample
+
+log/*
+!log/.keep
+
+model/*
+!model/.keep
 
 output/*
 !output/.keep
-
-py310
-git
-
-train/*
-logs/*
-sd-models/*
-toml/autosave/*
-!sd-models/put stable diffusion model here.txt
-!logs/.keep
-
-tests/
 
 huggingface/hub/models--openai--clip-vit-large-patch14
