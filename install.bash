@@ -2,6 +2,7 @@
 
 script_dir="/kaggle/working/lora-dreambooth"
 cd "$script_dir"
+echo "hello"
 
 create_venv=true
 
